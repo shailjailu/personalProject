@@ -1,0 +1,24 @@
+.intro{
+    background-image: url("https://sl.bing.net/gUGZPVyFhAW");
+}
+.navbar{
+    background-color: #d29696;
+    display: flex;
+}
+.navbar h3{
+    padding: 10px 10px 10px 50px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    margin-right: 50px;
+    padding-right: 50px;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: auto;
+}
+.nav h3{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
