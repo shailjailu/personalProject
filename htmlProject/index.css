@@ -1,8 +1,24 @@
-.intro{
-    background-image: url("https://sl.bing.net/gUGZPVyFhAW");
+body{
+    margin: 0; /* ensure full-width sections reach the edges */
 }
+
+.intro {
+    background: url("./profileBG.png")
+                no-repeat center/cover;
+    width: 100%;
+    min-height: 300px; /* keeps visible area but still responsive */
+    
+  background-size: cover;
+  background-position: center;
+  padding: 20px 20px 20px 20px;
+  color: wheat;
+
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
 .navbar{
-    background-color: #d29696;
+    background-color: #d47575e2;
     display: flex;
 }
 .navbar h3{
@@ -21,4 +37,95 @@
 .nav h3{
     padding: 10px 10px 10px 10px;
     text-align: center;
+}
+.about{
+    text-align: center;
+}
+.read{
+    background-color:  rgb(44, 44, 120);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    height: 40px;
+    width: 100px;
+}
+.read:hover{
+    background-color: rgb(78, 195, 245);
+    color: black;
+}
+.projects{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.project-group{
+    display: flex;
+    justify-content: center;
+    gap: 60px;   
+}
+.project{
+    color: rgb(0, 0, 0);
+    background-color: rgb(116, 218, 38);
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+
+}
+.project:hover{
+    background-color: rgba(14, 82, 12, 0.639);
+     color: rgb(247, 244, 244);
+}
+
+.projects-grid{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    
+    
+}
+.btn{
+    background-color: rgb(116, 218, 38);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(14, 82, 12, 0.639);
+     color: rgb(247, 244, 244);
+}
+.card-img{
+height: 400px;
+    width: 300px;
+}
+.contact{
+    text-align: center;
+
+}
+.margin{
+    margin-bottom: 10px;
+}
+.submit-btn{
+    background-color: rgb(44, 44, 120);
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+.submit-btn:hover{
+    background-color: rgb(78, 195, 245);
+    color: black;
+}
+.social{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.media:hover {
+    color: rgb(78, 195, 245);
+}
+.footer{
+    background-color: #d47575;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
