@@ -35,14 +35,14 @@
     <div class="projects">
         <h2>My Projects</h2>
         <div class="project-group">
-            <button class="project">Project 1</button>
-            <button class="project">Project 2</button>
-            <button class="project">Project 3</button>
+            <button class="project" data-project="1">Project 1</button>
+            <button class="project" data-project="2">Project 2</button>
+            <button class="project" data-project="3">Project 3</button>
         </div>
     </div>
     <div>
         <div class="projects-grid">
-            <article class="card">
+            <article class="card" data-project="1">
                 <div class="card-media">
                     <img class="card-img" src="https://assets.skyfilabs.com/images/blog/cse-mini-projects.webp"
                         alt="Portfolio Website">
@@ -54,7 +54,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-project="2">
                 <div class="card-media">
                     <img class="card-img" src="https://tse4.mm.bing.net/th/id/OIP.b7cNRXB5mxlrLM-45cM7xAHaFO?rs=1&pid=ImgDetMain&o=7&rm=3"
                         alt="E‑Commerce App">
@@ -66,7 +66,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-project="3">
                 <div class="card-media">
                     <img class="card-img" src="https://t4.ftcdn.net/jpg/08/27/49/09/360_F_827490974_znL5S4nFDF1QnsPk8KiDB1ixhSMhVHOV.jpg"
                         alt="Dashboard UI">
@@ -79,6 +79,10 @@
             </article>
         </div>
     </div>
+
+    <!-- show/hide script for project buttons -->
+    <script src="index.js"></script>
+
     <div class="contact">
         <h2>Contact Me</h2>
         <form class="margin">

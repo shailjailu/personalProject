@@ -83,6 +83,9 @@ body{
     
     
 }
+.projects-grid .card{ display: none; }
+.projects-grid .card.show{ display: block; }
+.project.active{ box-shadow: 0 4px 10px rgba(0,0,0,0.12); transform: translateY(-2px); }
 .btn{
     background-color: rgb(116, 218, 38);
     color: rgb(0, 0, 0);
@@ -120,6 +123,7 @@ height: 400px;
     display: flex;
     justify-content: center;
 }
+.media i{ font-size: 1.2rem; }
 .media:hover {
     color: rgb(78, 195, 245);
 }
