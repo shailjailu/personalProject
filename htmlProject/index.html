@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <!-- added Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div>
+            <h3>My Portfolio</h3>
+        </div>
+        <div class="nav">
+            <h3>About</h3>
+            <h3>Project</h3>
+            <h3>Contact</h3>
+            <h3>About</h3>
+        </div>
+    </div>
+    <div class="intro">
+        <h2>Hello! I am Shailja</h2>
+        <h4>Web Developer & Designer</h4>
+        <button>View my work</button>
+    </div>
+    <div class="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+        <button class="read">Read More</button>
+    </div>
+    <div class="projects">
+        <h2>My Projects</h2>
+        <div class="project-group">
+            <button class="project" data-project="1">Project 1</button>
+            <button class="project" data-project="2">Project 2</button>
+            <button class="project" data-project="3">Project 3</button>
+        </div>
+    </div>
+    <div>
+        <div class="projects-grid">
+            <article class="card" data-project="1">
+                <div class="card-media">
+                    <img class="card-img" src="https://assets.skyfilabs.com/images/blog/cse-mini-projects.webp"
+                        alt="Portfolio Website">
+                </div>
+                <div class="card-body">
+                    <h3>Portfolio Website</h3>
+                    <p class="muted">Responsive personal site built with HTML & CSS.</p>
+                    <button class="btn" onclick="location.href='#'">View Project</button>
+                </div>
+            </article>
+
+            <article class="card" data-project="2">
+                <div class="card-media">
+                    <img class="card-img" src="https://tse4.mm.bing.net/th/id/OIP.b7cNRXB5mxlrLM-45cM7xAHaFO?rs=1&pid=ImgDetMain&o=7&rm=3"
+                        alt="E‑Commerce App">
+                </div>
+                <div class="card-body">
+                    <h3>E‑Commerce App</h3>
+                    <p class="muted">Shopping app UI with product pages and cart flow.</p>
+                    <button class="btn" onclick="location.href='#'">View Project</button>
+                </div>
+            </article>
+
+            <article class="card" data-project="3">
+                <div class="card-media">
+                    <img class="card-img" src="https://t4.ftcdn.net/jpg/08/27/49/09/360_F_827490974_znL5S4nFDF1QnsPk8KiDB1ixhSMhVHOV.jpg"
+                        alt="Dashboard UI">
+                </div>
+                <div class="card-body">
+                    <h3>Dashboard UI</h3>
+                    <p class="muted">Analytics dashboard prototype with charts and controls.</p>
+                    <button class="btn" onclick="location.href='#'">View Project</button>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- show/hide script for project buttons -->
+    <script src="index.js"></script>
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <form class="margin">
+            <input type="text" placeholder="Your Name">
+        </form>
+         <form class="margin">
+             <input type="email" placeholder="Your Email">
+        </form>
+        <form class="margin">
+             <textarea placeholder="Your Message"></textarea>
+        </form>
+        <form class="margin">
+             <button class="submit-btn" type="submit">Send Message</button>
+        </form>
+    </div>
+    <div>
+        <footer class="footer">
+            <p>&copy; 2024 Shailja. All rights reserved.</p>
+            <div class="social">
+                <a class="media" href="https://facebook.com/">
+                    <i class="fab  fa-facebook-f"></i>
+                </a>
+                <a class="media" href="https://twitter.com/" >
+                    <i class="fab fa-twitter"></i>
+                    
+                </a>
+                <a class="media" href="https://instagram.com/" >
+                    <i class="fab fa-instagram"></i>
+                </a>
+                 <a class="media" href="https://android.com/" >
+                   <i class="fa-brands fa-android"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
